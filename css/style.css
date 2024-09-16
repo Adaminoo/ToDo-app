@@ -1,1 +1,16 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+.top {
+  padding: 30px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: black;
+  color: lightgray;
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */

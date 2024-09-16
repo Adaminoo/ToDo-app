@@ -1,0 +1,37 @@
+
+@mixin flexrow {
+    display:flex;
+    flex-direction: row;
+}
+
+@mixin flexcol {
+    display:flex;
+    flex-direction: column;
+}
+
+@mixin aligncenter {
+    display:flex;
+    align-items: center;
+}
+
+@mixin bgcircle {
+    border-radius: 50%;
+    background-color:#c89cc4;
+    padding:6px;
+}
+
+@mixin gtitle {
+    color:gray;
+    font-size:15px;
+}
+
+@mixin iconoutline {
+    height:50px;
+  width:50px;
+  border: lightgray solid 1px;
+  border-radius: 50%;
+  display:flex;
+    align-items: center;
+  justify-content: center;
+}
+
