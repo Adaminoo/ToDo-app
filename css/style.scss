@@ -16,3 +16,15 @@ body {
     color:lightgray;
     font-size:30px;
 }
+
+.left {
+    height:100%;
+}
+
+.button {
+    background-color: white;
+    @include base.aligncenter;
+    justify-content:center;
+    width:200px;
+    height:100px;
+}
