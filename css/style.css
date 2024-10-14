@@ -1,17 +1,94 @@
 body {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
+  height:100vh;
+  width:100%;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
 }
 
-#addList {
-  margin: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  background-color: gray;
-  color: black;
-}/*# sourceMappingURL=style.css.map */
+.top {
+  background-color:rgb(55, 55, 55);
+  width:100%;
+  height:10%;
+  display:flex;
+  color:white;
+}
+
+.navbar {
+  width:100%;
+  padding:10px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.nav {
+  display:flex;
+  flex-direction: row;
+  width:10%;
+  justify-content: space-between;
+}
+
+.bottom {
+  display:flex;
+  height:90%;
+}
+
+.left {
+  background-color: #dadfea;
+  width:15%;
+  height:100%;
+  padding:0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#search {
+  width:95%;
+  margin-top:10px;
+}
+
+.lists {
+  width:100%;
+}
+
+.testlist {
+  text-decoration: none;
+  list-style: none;
+  width:100%;
+  margin:0;
+  padding:0;
+  margin-top:10px;
+}
+
+.selectlist {
+  background-color:rgb(65, 65, 119);
+  color:white;
+  padding:5px;
+}
+
+.right {
+  width:85%;
+  padding:20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.listitems {
+  list-style:none;
+  margin:20px;
+  padding:0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  width:100%;
+  border:1px solid gray;
+  padding:5px;
+}
