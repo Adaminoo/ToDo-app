@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <script src="../js/main.js" defer></script>
     </head>
-    <body>
+    <body onload="render()">
         <div class="top">
             <div class="navbar">
                 <div class="title">Lists</div>
@@ -20,7 +20,7 @@
         <div class="bottom">
             <div class="left">
                 <input id="search" placeholder="Enter List Name...">
-                <div class="lists">
+                <div class="lists" id="lists">
                     <ul class="testlist">
                         <li class="selectlist">test</li>
                         <li class="selectlist">test2</li>
