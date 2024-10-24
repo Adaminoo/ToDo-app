@@ -4,15 +4,13 @@
         <link rel="stylesheet" href="../css/style.css">
         <script src="../js/main.js" defer></script>
     </head>
-    <body onload="render()">
+    <body onload="load()">
         <div class="top">
             <div class="navbar">
                 <div class="title">Lists</div>
                 <div class="nav">
-                    <div class="settings">
-                        settings
-                    </div>
-                    <div class="profile">profile</div>
+                    <button onclick="save()">Save</button>
+                    <button onclick="load()">Load</button>
                 </div>
             </div>
         </div>
@@ -20,22 +18,19 @@
         <div class="bottom">
             <div class="left">
                 <input id="search" placeholder="Enter List Name...">
-                <div class="lists" id="lists">
-                    <ul class="testlist">
-                        <li class="selectlist">test</li>
-                        <li class="selectlist">test2</li>
-                    </ul>
-                </div>
+                <div class="lists" id="lists"></div>
+                <input id="list-input-box" placeholder="Enter New List Name">
+                <button onclick="addList()">Create New List</button>
+                <button onclick="removeList()">Remove List</button>
             </div>
             <div class="right">
-                <div class="listtitle">
+                <div class="listtitle" id="current-list-name">
                     <div class="title">test</div>
                 </div>
-                <ul class="listitems">
-                    <li class="item"><input type="checkbox">erm</li>
-                    <li class="item"><input type="checkbox">what the</li>
-                    <li class="item"><input type="checkbox">flip</li>
-                </ul>
+                <div id="current-list-todos"></div>
+                <input id="todo-input-box" placeholder="Type a new todo...">
+                <button onclick="addTodo()">Add todo</button>
+                <button onclick="removeTodo()">Delete Todo</button>
             </div>
         </div>
     </body>

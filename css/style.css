@@ -109,3 +109,16 @@ body {
   color:white;
   padding:5px;
 }
+
+.list-group-flush {
+  list-style: none;
+}
+
+.list-current-item {
+  border: 1px gray solid;
+  padding:10px;
+}
+
+#list-input-box {
+  width:95%;
+}
